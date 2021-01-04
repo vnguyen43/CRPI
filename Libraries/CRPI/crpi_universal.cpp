@@ -837,15 +837,6 @@ namespace crpi_robot
     ulapi_mutex_take(handle_.handle);
     *forces = handle_.curForces;
     ulapi_mutex_give(handle_.handle);
-    
-    transformFromMount(handle_.curForces, temp, false);
-
-    forces->x = temp.x;
-    forces->y = temp.y;
-    forces->z = temp.z;
-    forces->xrot = temp.xrot;
-    forces->yrot = temp.yrot;
-    forces->zrot = temp.zrot;
 
     return CANON_SUCCESS;
   }
