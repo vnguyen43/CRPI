@@ -18,6 +18,9 @@
     <ClInclude Include="ManusVR.h">
       <Filter>Include</Filter>
     </ClInclude>
+    <ClInclude Include="ATI_Wireless.h">
+      <Filter>Include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="LeapMotion.cpp">
@@ -27,6 +30,9 @@
       <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="ManusVR.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ATI_Wireless.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>

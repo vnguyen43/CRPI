@@ -294,11 +294,13 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ATI_Wireless.cpp" />
     <ClCompile Include="LeapMotion.cpp" />
     <ClCompile Include="ManusVR.cpp" />
     <ClCompile Include="MYO.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ATI_Wireless.h" />
     <ClInclude Include="LeapMotion.h" />
     <ClInclude Include="ManusVR.h" />
     <ClInclude Include="MYO.h" />
